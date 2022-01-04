@@ -1,4 +1,4 @@
-
+ 
 /* .container {
   width: 793px;
   height: 1122px;
@@ -38,20 +38,23 @@
 }
   
 	@font-face {
-        font-family: 'spec_font';
+        font-family: calibri !important;
         font-style: normal;
         font-weight: normal;
-        src: url("https://github.com/iipmuhamadikbal/tes/raw/master/Calibri%20Regular.ttf") format('truetype');
+        /* src: url("https://raw.githubusercontent.com/iipmuhamadikbal/tes/master/Calibri%20Regular.ttf") format('truetype'); */
 	}
 
     @font-face {
-        font-family: 'calibri-bold';
+        font-family: calibri !important;
         font-style: bold;
         font-weight: normal;
-        src: url("https://raw.githubusercontent.com/iipmuhamadikbal/tes/master/Calibri%20Bold.TTF") format('truetype');
+        /* src: url("https://raw.githubusercontent.com/iipmuhamadikbal/tes/master/Calibri%20Bold.TTF") format('truetype'); */
     }
 #title {
         font-size: 22pt;
+        font-family: calibri !important;
+        font-style: bold;
+        font-weight: normal;
     }
 	#cr {
     font-family: calibri !important;
@@ -64,11 +67,6 @@
 	}
   #pemilik {
         font-size: 16pt;
-		    font-family: calibri-bold !important;
-        font-weight: bold;
-    }
-    #pemilik {
-        font-size: 16pt;
-		    font-family: calibri-bold !important;
+		    font-family: calibri !important;
         font-weight: bold;
     }
